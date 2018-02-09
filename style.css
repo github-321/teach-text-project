@@ -21,7 +21,9 @@
  font-style: normal;}
 
 body {font-family: 'Gotham'; font-size:14px; color:#5d5d5d;}
-
+body > [uib-modal-window]:not([modal-render]) {
+    display: none;
+}
 .wrap{padding:70px 180px 0 70px;}
 form.login input[type="text"], form.login input[type="password"]{width: 100%; margin: 0; padding:0 0 10px 0; background: 0;  border: 0; border-bottom: 1px solid #969696; outline: 0;  font-size: 15px; font-weight:300; margin-bottom:25px; color: #5d5d5d;}
 
