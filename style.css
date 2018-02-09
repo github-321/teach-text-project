@@ -226,7 +226,7 @@ form.class-group .description-input:-moz-placeholder {color:#5d5d5d;}
 	position:relative;
 	width:100%;  float: left; 
 	background-repeat: no-repeat;  background-position: 96% center;
-	background-image:url(../img/down-arrow.png); 
+	background-image:url(./img/down-arrow.png); 
 	height:52px; cursor:pointer;
 	    background-color: transparent;
 	color: #0b2833; font-weight:300; font-size: 15px;
